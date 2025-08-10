@@ -2,3 +2,4 @@
 hello
 world
 signup
+stashing
