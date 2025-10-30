@@ -3,16 +3,14 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing dependencies...
-      - npm install
+      - echo Nothing to install, static HTML project.
   build:
     commands:
-      - echo Build started on `date`
-      - npm run build
+      - echo No build step needed.
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed successfully. Ready to display index.html.
 
 artifacts:
   files:
-    - '**/*'
+    - index.html
